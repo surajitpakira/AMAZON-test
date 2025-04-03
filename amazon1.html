@@ -1,92 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="bg-black text-white  flex py-1 justify-evenly ">
-        <img class="bg-black hover:border px-2"src="./images/amazon_logo.png" alt="logo"  width="150" height="500" />
-        <div class="flex flex-col justify-center hover:border w-20 pl-2">
-        <div class="adress text-gray-300 text-sm ml-px "><p>delever to</p> </div>
-        <div class="icon text-base flex items-center "><i class="mr-2 fa-solid fa-location-dot"></i><p>India</p></div> 
+    <div class="bg-black text-white flex py-1 justify-evenly">
+      <img
+        class="hover:border px-2"
+        src="./images/amazon_logo.png"
+        alt="logo"
+        width="150"
+        height="500"
+      />
+      <div class="flex flex-col justify-center hover:border w-20 pl-2">
+        <div class="adress text-gray-300 text-sm ml-px"><p>delever to</p></div>
+        <div class="icon text-base flex items-center">
+          <i class="mr-2 fa-solid fa-location-dot"></i>
+          <p>India</p>
         </div>
-        <div class=" flex border border-yellow-500">
-          <select class="bg-white w-10 h-10 text-center rounded-tl-md rounded-bl-md text-black"><option>All</option></select>
-          <input types="text" placeholder="Search Amazon" class="bg-white text-black w-100 h-10 pl-4 font-bold">
-          <i class="fa-solid fa-magnifying-glass pt-2 bg-yellow-500 h-10 w-10 rounded-br-md rounded-tr-md flex justify-center items-center text-lg pl-2 "></i>
-        </div>
-        <div class="pt-4 hover:border pl-2 w-30">
-          <p class="text-xs "><span>Hello, sign in</span></p>
-          <p class="text-sm font-bold">Account & Lists</p>
-        </div>
-        <div class="pt-4 hover:border w-20 pl-2">
-          <p class="text-xs"><span>Returns</span></p>
-          <p class="text-sm font-bold">& orders</p>
-        </div>
-        <div class="pt-5 hover:border "><i class="fa-solid fa-cart-shopping text-3xl"></i>cart</div>
       </div>
-      <div class="h-10 bg-[#174066] flex text-white items-center justify-evenly ">
+      <div class="flex border border-yellow-500">
+        <select
+          class="bg-white w-10 h-10 text-center rounded-tl-md rounded-bl-md text-black"
+        >
+          <option>All</option>
+        </select>
+        <input
+          types="text"
+          placeholder="Search Amazon"
+          class="bg-white text-black w-100 h-10 pl-4 font-bold"
+        />
+        <i
+          class="fa-solid fa-magnifying-glass pt-2 bg-yellow-500 h-10 w-10 rounded-br-md rounded-tr-md flex justify-center items-center text-lg pl-2"
+        ></i>
+      </div>
+      <div class="pt-4 hover:border pl-2 w-30">
+        <p class="text-xs"><span>Hello, sign in</span></p>
+        <p class="text-sm font-bold">Account & Lists</p>
+      </div>
+      <div class="pt-4 hover:border w-20 pl-2">
+        <p class="text-xs"><span>Returns</span></p>
+        <p class="text-sm font-bold">& orders</p>
+      </div>
+      <div class="pt-5 hover:border">
+        <i class="fa-solid fa-cart-shopping text-3xl"></i>cart
+      </div>
+    </div>
+    <div class="h-10 bg-[#174066] flex text-white items-center justify-evenly">
       <div class=""><i class="fa-solid fa-bars fon"></i>All</div>
-      <div class="w-[70%]  text-sm flex gap-3 font-bold"><p>Customer Service</p><p>Gift card</p><p>Registory</p><p>Sell</p></div>
+      <div class="w-[70%] text-sm flex gap-3 font-bold">
+        <p>Customer Service</p>
+        <p>Gift card</p>
+        <p>Registory</p>
+        <p>Sell</p>
+      </div>
       <div class="text-base font-bold">Shop deals in Electronics</div>
+    </div>
+    <div
+      class="bg-[url(./images/hero_image.jpg)] h-[350px] bg-cover flex ju justify-center items-end"
+    >
+      <div
+        class="bg-white color-black h-10 flex items-center justify-center w-[70%] text-sm mb-[25px]"
+      >
+        Lorem, ipsum dolor sit amet consectetur adipisicing Soluta, ipsum dolor.
+        <a class="text-[#0F598A]">sit amet consectetur quo!</a>
       </div>
-      <div class="bg-[url(./images/hero_image.jpg)] h-[350px] bg-cover flex ju justify-center items-end ">
-        <div class="bg-white color-black h-10 flex items-center justify-center  w-[70%] text-sm mb-[25px]">Lorem, ipsum dolor sit amet consectetur adipisicing Soluta, ipsum dolor. <a class="text-blue-400">sit amet consectetur quo!</a></div>
+    </div>
+    <div class="flex justify-evenly bg-gray-200 pt-5 flex-wrap gap-4">
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2"><h3>Cloths</h3></div>
+        <div
+          class="bg-[url(./images/box1_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
       </div>
-      <div class=" flex justify-evenly bg-gray-200 pt-5 flex-wrap gap-4">
-        <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>Cloths</h3></div>
-          <div class="bg-[url(./images/box1_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2">
+          <h3>Helth & prsonal care</h3>
         </div>
-        <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>Helth & prsonal care</h3></div>
-          <div class="bg-[url(./images/box2_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
+        <div
+          class="bg-[url(./images/box2_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2"><h3>Furniture</h3></div>
+        <div
+          class="bg-[url(./images/box3_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2"><h3>Electronics</h3></div>
+        <div
+          class="bg-[url(./images/box4_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2"><h3>makeup kits</h3></div>
+        <div
+          class="bg-[url(./images/box5_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2"><h3>pet care</h3></div>
+        <div
+          class="bg-[url(./images/box6_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2">
+          <h3>New arrivel in toy</h3>
         </div>
-        <div class="h-[400px]  w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>Furniture</h3></div>
-          <div class="bg-[url(./images/box3_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
+        <div
+          class="bg-[url(./images/box7_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+      <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 pl-4 pr-4">
+        <div class="text-lg font-bold pt-1 pb-2">
+          <h3>Discover Fashion trands</h3>
         </div>
-        <div class="h-[400px]  w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>Electronics</h3></div>
-          <div class="bg-[url(./images/box4_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
-        </div>
-        <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>makeup kits</h3></div>
-          <div class="bg-[url(./images/box5_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
-        </div>
-        <div class="h-[400px] w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>pet care</h3></div>
-          <div class="bg-[url(./images/box6_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
-        </div>
-        <div class="h-[400px]  w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>New arrivel in toy</h3></div>
-          <div class="bg-[url(./images/box7_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
-        </div>
-        <div class="h-[400px]  w-[23%] bg-white pt-5 pb-4 px-0 pl-4 pr-4">
-          <div class="text-lg font-bold pt-1 pb-2"><h3>Discover Fashion trands</h3></div>
-          <div class="bg-[url(./images/box8_image.jpg)] h-[300px] pt-4 bg-cover "></div>
-          <div class="color-blue pt-2"><p>see more</p></div>
-        </div>
+        <div
+          class="bg-[url(./images/box8_image.jpg)] h-[300px] pt-4 bg-cover"
+        ></div>
+        <div class="color-blue pt-2"><p>see more</p></div>
+      </div>
+    </div>
+    <div class="pt-4">
+      <div
+        class="bg-[#2D367F] text-white flex justify-center items-center h-[50px] text-sm"
+      >
+        Back to top
+      </div>
+    </div>
+    <div class="bg-[#1E315A] text-white h-[400px] flex justify-evenly">
+      <div class="pt-4">
+        <ul class="flex flex-col gap-3">
+          <p>Get to know us</p>
+          <a class="text-sm text-gray-300">Careers</a
+          ><a class="text-sm text-gray-300">Blog</a
+          ><a class="text-gray-300 text-sm">About amzon</a
+          ><a class="text-gray-300 text-sm">Investor relation</a
+          ><a class="text-sm text-gray-300">Amazon devices</a
+          ><a class="text-sm text-gray-300">Amazon science</a>
+        </ul>
       </div>
       <div class="pt-4">
-        <div class="bg-blue-500 text-white flex justify-center items-center h-[50px] text-sm">Back to top</div>
+        <ul class="flex flex-col gap-3">
+          <p>Get to know us</p>
+          <a class="text-sm text-gray-300">Careers</a
+          ><a class="text-sm text-gray-300">Blog</a
+          ><a class="text-gray-300 text-sm">About amzon</a
+          ><a class="text-sm text-gray-300">Investor relation</a
+          ><a class="text-sm text-gray-300">Amazon devices</a
+          ><a class="text-sm text-gray-300">Amazon science</a>
+        </ul>
       </div>
-      <div class="bg-gray-500 text-white h-[300px] block">
-      <div class="block"><ul><p>Get to know us</p><a>Career</a><a>Blog</a><a>Abolut amazon</a><a>Investor Relation</a><a>Amazon Devices</a><a>Amazon Science</a></ul></div>
-      <div class=""><ul><p>Get to know us</p><a>Career</a><a>Blog</a><a>Abolut amazon</a><a>Investor Relation</a><a>Amazon Devices</a><a>Amazon Science</a></ul></div>
-      <div class=""><ul><p>Get to know us</p><a>Career</a><a>Blog</a><a>Abolut amazon</a><a>Investor Relation</a><a>Amazon Devices</a><a>Amazon Science</a></ul></div>
-      <div class=""><ul><p>Get to know us</p><a>Career</a><a>Blog</a><a>Abolut amazon</a><a>Investor Relation</a><a>Amazon Devices</a><a>Amazon Science</a></ul></div>
+      <div class="pt-4">
+        <ul>
+          Get to know us
+        </ul>
+        <a class="text-sm text-gray-300">Careers</a
+        ><a class="text-sm text-gray-300">Blog</a
+        ><a class="text-gray-300 text-sm">About amzon</a
+        ><a class="text-sm text-gray-300">Investor relation</a
+        ><a class="text-sm text-gray-300">Amazon devices</a
+        ><a class="text-sm text-gray-300">Amazon science</a>
       </div>
-    </body>
+      <div class="pt-4">
+        <ul>
+          Get to know us
+        </ul>
+        <a class="text-sm text-gray-300">Careers</a
+        ><a class="text-sm text-gray-300">Blog</a
+        ><a class="text-gray-300 text-sm">About amzon</a
+        ><a class="text-sm text-gray-300">Investor relation</a
+        ><a class="text-sm text-gray-300">Amazon devices</a
+        ><a class="text-sm text-gray-300">Amazon science</a>
+      </div>
+    </div>
+    <div class="bg-[#2B4275] h-[70%] border-t-[0.85px] border-white">
+      <div class="flex items-center justify-center">
+        <img
+          class=""
+          src="./images/amazon_logo.png"
+          alt="logo"
+          width="150"
+          height="500"
+        />
+      </div>
+    </div>
+    <div class="">
+      <div class="">
+        <a>Condition of uses</a>
+        <a>privacy notice</a>
+        <a>your ads privacy choice</a>
+      </div>
+    </div>
+  </body>
 </html>
